@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html,
+body {
+    height: 100%;
+    will-change: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cursor {
+    box-shadow: 0px 0px 25px blue;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    /* WHEN SCROLL TO YE FIX RAHE APNE PLACE PE AND HAR PAGE PE AYE*/
+    position: fixed;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 9;
+}
+
+#image {
+    height: 30vw;
+    width: 60vw;
+    background-color: red;
+    position: relative;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-color: transparent; */
+    z-index: 10;
+}
+
