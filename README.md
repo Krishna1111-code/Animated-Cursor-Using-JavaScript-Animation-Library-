@@ -1,4 +1,4 @@
-# GITHUB-REPO-STARTING-Repository-1
+# Animated Cursor 🔥
 
 JavaScript GSAP Animation Library Animated Cursor With Smooth Scrolling ⭕
 This is my First Repo ! While Watching Apna College Youtube Video I m Making This { Repo 🙂 } 
